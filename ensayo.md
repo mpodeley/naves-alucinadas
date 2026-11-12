@@ -139,6 +139,25 @@ Los niveles del modelo son míos. Otro lector los llenaría distinto, y el orden
 
 Trabajé sobre las notas de quienes leyeron las fuentes, que en parte son secundarias: el artículo del Wall Street Journal se leyó a través de reproducciones. Las citas de este ensayo se cotejaron contra las páginas de origen el 12 de noviembre de 2026. El artículo del Journal, la negación de Doty y la frase de Reid se leyeron en copias o en fuentes secundarias. Las demás citas de las notas siguen sin ese cotejo. Nada de lo escrito acá dice algo sobre las intenciones de Lazar ni de Knapp.
 
+## Apéndice: la simulación como cuarto generador
+
+HERCULANEUM-299 propone naves que funcionan y cuyos detalles fallan. Una simulación que ahorra cómputo produciría eso mismo: objetos correctos a la distancia de uso, que se quedan sin estructura cuando alguien mira donde nadie previó. Los backrooms, una ficción colectiva de internet nacida en 2019 sobre pasillos de oficina vacíos e interminables, son esa intuición vista desde adentro.
+
+La hipótesis entra en la tabla como un generador más, con su propio perfil de error.
+
+| Generador | Dónde falta detalle | De qué depende el hueco |
+|---|---|---|
+| El mundo | En ningún lado | De nada |
+| Un montaje | Fuera del recorrido planificado | De lo que previó quien lo armó |
+| El narrador | Donde el narrador no sabe | De lo que sabe el testigo |
+| Una simulación | Donde nadie mira | De la atención, sea cual sea el saber del testigo |
+
+Aplicada a Lazar, la simulación predice otra cosa que lo observado. Los huecos de su relato caen en lo que él no sabía, como la física, y en lo que no le dejaron mirar. Lo que llena el relato coincide con la ufología de Las Vegas de 1988: Zeta Reticuli, la intervención genética y el Jesús creado ya estaban en la declaración de Lear. Un fallo de renderizado sería indiferente a las ideas de un amigo del testigo.
+
+Tengo dos reservas sobre la hipótesis en general. Su versión amplia es compatible con cualquier observación, y por eso informa poco. Su versión de detalle a demanda sí predice algo, y la física conocida la contradice: simular un sistema cuántico en una máquina clásica cuesta, en general, exponencialmente más que simular uno clásico. Un sistema que ahorra cómputo elegiría otra física.
+
+Queda un parecido de textura. Lazar describe un ómnibus con las ventanas tapadas, un cuarto chico con una mesa, una silla y una pila de carpetas, y una ventana chica por la que creyó ver una figura. Es un espacio liminal, y para producirlo alcanza con un edificio del gobierno de noche.
+
 ## Fuentes
 
 - [`notas/01-vallee-diarios.md`](https://github.com/mpodeley/naves-alucinadas/blob/main/notas/01-vallee-diarios.md): los diarios de Vallée, tomos 3 a 6, con 50 citas cotejadas contra el texto.

@@ -1,11 +1,11 @@
 ---
 title: Naves alucinadas
 subtitle: Qué percibió Bob Lazar de primera mano en 1989, qué le contaron y por dónde viajó el relato
-date: 2026-11-11
+date: 2026-11-12
 lang: es
 ---
 
-Ensayo de investigación escrito por Claude el 11 de noviembre de 2026, a partir de una idea del archivo 009 de [HERCULANEUM-299](https://mpodeley.github.io/aliens/). Es un cuaderno de trabajo con una conclusión provisoria. Las cinco notas con sus fuentes y el modelo están en [el repositorio](https://github.com/mpodeley/naves-alucinadas).
+Ensayo de investigación escrito por Claude el 11 y 12 de noviembre de 2026, a partir de una idea del archivo 009 de [HERCULANEUM-299](https://mpodeley.github.io/aliens/). Es un cuaderno de trabajo con una conclusión provisoria. Las seis notas con sus fuentes y el modelo están en [el repositorio](https://github.com/mpodeley/naves-alucinadas).
 
 ## Qué creo que pasó
 
@@ -32,7 +32,7 @@ Lazar nunca dio un total de visitas al sitio que llamó S-4. Su calendario, que 
 
 Su primera impresión fue que la nave era estadounidense. Que era extraterrestre se lo dijeron un compañero llamado Barry y unas carpetas azules de una o dos páginas, que leía solo durante media hora. Zeta Reticuli, las autopsias y la evidencia fotográfica de más de 10,000 años son lectura. El 9 de diciembre de 1989 dijo de esas hojas: "it's just printed material and it could be disinformation. I don't know."
 
-Tres piezas famosas del relato llegaron más tarde. El elemento 115 falta en la entrevista de mayo de 1989; la primera mención que encontré es del 14 de noviembre, y Tom Mahood la fecha el 9 de diciembre. Las "65 correcciones" genéticas y los humanos como "contenedores" salen de una regresión hipnótica del 10 de agosto de 1989, con preguntas que inducen; la palabra "almas" la pone el hipnotizador. La primera mención hallada de la bandera del casco es un resumen de 1997, y en 2026 Lazar la describe como "reversed", espejada.
+Tres piezas famosas del relato llegaron más tarde. El elemento 115 falta en la entrevista de mayo de 1989; la primera mención que encontré es del 14 de noviembre, y Tom Mahood la fecha el 9 de diciembre. Las "65 correcciones" genéticas y los humanos como "contenedores" quedan registrados por primera vez en una regresión hipnótica del 10 de agosto de 1989. Las dos expresiones las dice Lazar. El hipnotizador llegó con temario y lecturas previas, varias de sus preguntas traen el motivo puesto, y la palabra "almas" la pone él. La primera mención hallada de la bandera del casco es un resumen de 1997, y en 2026 Lazar la describe como "reversed", espejada.
 
 La lectura del montaje está en su propia boca desde el principio. El 10 de noviembre de 1989 dijo que quienes lo llevaban "purposely wanted to walk me by it". El 20 de diciembre, sobre ese mismo paso junto al disco: "It may have been planned by them".
 
@@ -66,7 +66,7 @@ John Lear publicó su declaración sobre ovnis el 29 de diciembre de 1987 y desd
 
 Lazar contó en 2018 que en las entrevistas de ingreso le preguntaron por Lear. La frase textual la da Lear en 2003, repitiendo lo que Lazar le había contado: "Do you know John Lear, and what is your relationship with him?". Si fue así, quien contrataba sabía del vínculo antes del primer día. En los casos de Kirtland el receptor siempre estaba conectado a alguien que difundía: Paul Bennewitz a través de Bill Moore, Howe a través de la cadena HBO.
 
-La misma cercanía con Lear debilita la prueba más tentadora. Los motivos de las carpetas coinciden con el papel de Kirtland de 1983, pero también estaban en la declaración de Lear de 1987 y en un especial de televisión de octubre de 1988 que figura en su calendario. La coincidencia admite dos lecturas: le mostraron material de ese linaje, o lo absorbió del ambiente. Solo "65" y "contenedores" carecen de antecedente en lo consultado, y esos salieron bajo hipnosis.
+La misma cercanía con Lear debilita la prueba más tentadora. Los motivos de las carpetas coinciden con el papel de Kirtland de 1983, pero también estaban en lo que Lear decía en público desde 1987 y en un especial de televisión de octubre de 1988 que figura en su calendario. La coincidencia admite dos lecturas: le mostraron material de ese linaje, o lo absorbió del ambiente. Lo que carece de antecedente es el vocabulario propio de las carpetas: "containers", "65 corrections", los nombres de proyecto.
 
 ## Knapp, el canal
 
@@ -78,23 +78,47 @@ La red que armé tiene 89 vínculos, 65 con respaldo documental. Knapp figura en
 
 Sobre Lazar, Knapp encontró la guía telefónica de Los Alamos de 1982 y encargó dos polígrafos, y en 2014 escribió que nunca podría probar sus afirmaciones. Informó también lo que no pudo verificar, como la falta de registros en el MIT. El canal pesa por su forma. Cuando cuatro de cada diez vínculos pasan por un mismo nodo, dos versiones de una historia llegan al público con apariencia de dos confirmaciones.
 
-## La evidencia hunde tres hipótesis y deja dos empatadas
+## La siembra pudo llegar de segunda mano
 
-Comparé cinco hipótesis contra 16 rasgos del testimonio, agrupados en siete familias para que un mismo hecho contado de tres maneras cuente una vez. Cada casilla es un juicio mío sobre cuán esperable es el rasgo bajo cada hipótesis, en cinco escalones. Están todos en [`modelo/rasgos.json`](https://github.com/mpodeley/naves-alucinadas/blob/main/modelo/rasgos.json), con su razón.
+Hay una versión que une las dos hipótesis principales. La AFOSI sembró material en el circuito de Kirtland, Lear lo absorbió creyéndolo, y Lazar llenó su experiencia con lo que Lear le daba. Habría desinformación oficial en el origen y ninguna hoja falsa en manos de Lazar. La puse a prueba motivo por motivo contra los textos de Lear de 1987 y 1988.
+
+Tiene tres apoyos.
+
+- **Lazar tuvo material de Lear antes de entrar.** Lo dice él: "He gave me a bunch of documents after I had first met him". Lear, en 2003: "I kept feeding Bob information".
+- **El marco ya circulaba.** Zeta Reticuli, la intervención genética, Jesús, las autopsias y las imágenes antiguas de la Tierra se decían en público en Las Vegas antes de diciembre de 1988.
+- **Hay un detalle arbitrario compartido.** Lear escribió en 1987: "In 1979 there was an altercation of sorts at the Dulce laboratory". El incidente con muertos que cuenta Lazar también es de 1979, con otro lugar y otro número.
+
+Cuatro hechos la contradicen.
+
+- **La letra viene de otro lado.** "Containers", "65 corrections", "the Kids", "Reticulum 4", los nombres de proyecto y el elemento 115 faltan en todos los textos de Lear y del circuito anteriores a diciembre de 1988 que se leyeron. El corpus es amplio e incompleto.
+- **El flujo documentado va al revés.** En 1991 Lear escribe "64 separate external corrections" y "We are simply containers", y describe el reactor con elemento 115. Nada de eso está en sus textos anteriores.
+- **Lazar descarta lo distintivo de Lear.** Dulce, el tratado con los extraterrestres, las abducciones y la base subterránea de Groom faltan en su relato, y varios los niega.
+- **El único intento observado quedó sin efecto.** Lear sostenía que Lazar le había hablado de Datil, una de las bases de su lista. Bajo hipnosis Lazar responde: "I just remember that John told me I said this."
+
+La búsqueda encontró además una vía sin Lear. El 14 de octubre de 1988 se emitió el especial de televisión "UFO Cover-Up? Live", con dos informantes en sombras llamados "Falcon" y "Condor"; Vallée anota que eran Doty y Robert Collins. Hablaron de un extraterrestre vivo, de imágenes de la Tierra de hace miles de años y de un libro que reúne historia, tecnología, autopsias y religión. Las carpetas se parecen a ese programa más que a los textos de Lear. El calendario de Lazar dice "UFO Cover-up" ese día, y él recuerda haber visto esa noche un programa de ovnis en casa de un amigo. Que fuera ese especial es inferencia mía.
+
+La versión fuerte de la hipótesis cae: el contenido de las carpetas es otra cosa que material de Lear recordado como lectura. Queda en pie una versión débil, que ya estaba dentro del acceso inflado. El marco y las expectativas le llegaron del linaje de Kirtland antes de entrar, por Lear y por televisión. Los nombres propios son de otra mano: de Lazar, o de quien haya escrito unas hojas para él. El residuo deja abierta esa elección.
+
+## La evidencia hunde cuatro hipótesis y deja dos empatadas
+
+Comparé seis hipótesis contra 20 rasgos del testimonio, agrupados en ocho familias para que un mismo hecho contado de tres maneras cuente una vez. Cada casilla es un juicio mío sobre cuán esperable es el rasgo bajo cada hipótesis, en cinco escalones. Están todos en [`modelo/rasgos.json`](https://github.com/mpodeley/naves-alucinadas/blob/main/modelo/rasgos.json), con su razón.
 
 | Hipótesis | Qué supone | Prior | Posterior | Queda primera |
 |---|---|---|---|---|
-| Acceso periférico inflado | Trabajo marginal y real cerca del polígono; nadie lo engañó | 35% | 52% | 61% |
-| Siembra barata | Pocas visitas a un sitio real; le mostraron papel y fotos | 24% | 33% | 32% |
-| Invención | Ningún acceso | 35% | 14% | 7% |
+| Siembra barata | Pocas visitas a un sitio real; le mostraron papel y fotos | 24% | 42% | 53% |
+| Acceso periférico inflado | Trabajo marginal y real cerca del polígono; nadie lo engañó | 21% | 36% | 39% |
+| Invención | Ningún acceso | 35% | 12% | 6% |
+| Siembra de segunda mano | Como el acceso inflado, con las carpetas hechas de material de Lear | 14% | 9% | 2% |
 | Montaje completo | Escena física armada para él | 5% | 2% | <1% |
 | Nave real | El relato es exacto en lo esencial | 1% | <1% | <1% |
 
-La última columna es la fracción de 20,000 sorteos en que cada hipótesis queda primera cuando todos los juicios se mueven al azar. Con un prior parejo de 20% para cada una, las dos primeras quedan en 41% y 38%. Con un prior que le da 40% a la nave real, esa hipótesis termina en 1%.
+La última columna es la fracción de 20,000 sorteos en que cada hipótesis queda primera cuando todos los juicios se mueven al azar. Con un prior parejo, las dos primeras quedan en 37% y 35%. Con un prior que le da 40% a la nave real, esa hipótesis termina en 1%.
 
-Empecé el día prefiriendo la siembra barata. La evidencia casi no la separa del acceso inflado, y el orden entre las dos lo fija mi prior, que ya ponía al acceso inflado arriba. Lo que la evidencia sí mueve es el resto: la invención baja de 35% a 14%, y el montaje completo y la nave real quedan al fondo con cualquier prior.
+Empecé prefiriendo la siembra barata, y la evidencia casi no la separa del acceso inflado. El orden entre las dos lo fija el prior. En la primera versión del modelo, con cinco hipótesis, el acceso inflado quedaba arriba: 52% contra 33%. Al separar de él la segunda mano, su prior bajó de 35% a 21% y el orden se dio vuelta, casi sin cambio en lo que dice la evidencia. El acceso inflado y la segunda mano comparten lo esencial, que nadie engañó a Lazar en persona, y juntas suman 45% contra 42% de la siembra barata.
 
-Los números ordenan juicios, y lo que aportan es la dependencia. Sin las demostraciones de laboratorio y el vuelo que Lazar dice haber visto, la siembra sube a 67%. Sin las carpetas, el acceso inflado sube a 69%.
+Lo que la evidencia sí mueve es el resto. La invención baja de 35% a 12%, la segunda mano en su versión fuerte baja de 14% a 9%, y el montaje completo y la nave real quedan al fondo con cualquier prior.
+
+Los números ordenan juicios, y lo que aportan es la dependencia. Sin las demostraciones de laboratorio y el vuelo que Lazar dice haber visto, la siembra sube a 74%. Sin las carpetas, el acceso inflado sube a 52%.
 
 Toda la pregunta se reduce entonces a dos. Si Lazar leyó de verdad esas hojas en un cuarto de un sitio real, y las demostraciones son bordado posterior, le mostraron algo. Si las hojas son Lear y televisión recordados como lectura, nadie necesitó engañarlo.
 
@@ -119,11 +143,12 @@ La duración la explica el canal. En 37 años la historia pasó de un periodista
 - **El calendario original.** Lazar advierte que contiene "deceiving stuff... intentionally". Sus fechas clave dependen hoy de una transcripción.
 - **El pagador del W-2.** El formulario registra 958.11 dólares, un nombre de organismo que no existe y el número de empleador 46-1007639. Rastrear ese número diría quién pagó.
 - **El video del 29 de marzo de 1989.** Es el único registro de las luces de los miércoles y no tiene análisis cuadro por cuadro con referencia de fondo.
-- **Un "65" anterior al 10 de agosto de 1989.** Si aparece en el entorno de Lear antes de la hipnosis, el último motivo sin antecedente pasa a ser folclore.
+- **Un "65" o un "containers" anterior a diciembre de 1988.** Faltan en los textos de Lear y del circuito de Kirtland que se leyeron. Si aparecen en un documento de adentro, las carpetas tienen autor.
+- **La cinta del 14 de octubre de 1988.** Falta confirmar qué programa vio Lazar esa noche. Si fue el especial con "Falcon" y "Condor", el linaje de Kirtland le llegó por televisión dos meses antes del primer vuelo.
 
 ## Mis propias carpetas azules
 
-Hoy armé este cuadro leyendo la primera página de cinco notas, a solas, escritas por agentes a los que no pude ver trabajar. Cada nota tiene unas 7,000 palabras; leí los hallazgos y algunas tablas. Es el cuarto de lectura de Lazar. Las defensas que tuve fueron pocas y concretas: pedí citas textuales con fecha y línea, y uno de los agentes cotejó sus 50 citas contra el texto con un script. Un sexto agente cotejó después este ensayo contra las notas y marcó 21 frases, que corregí. Un séptimo cotejó 17 citas contra las páginas de origen: ninguna tenía palabras cambiadas y cuatro atribuciones estaban mal.
+Hoy armé este cuadro leyendo la primera página de cinco notas, a solas, escritas por agentes a los que no pude ver trabajar. Cada nota tiene unas 7,000 palabras; leí los hallazgos y algunas tablas. Es el cuarto de lectura de Lazar. Las defensas que tuve fueron pocas y concretas: pedí citas textuales con fecha y línea, y uno de los agentes cotejó sus 50 citas contra el texto con un script. Un sexto agente cotejó después este ensayo contra las notas y marcó 21 frases, que corregí. Un séptimo cotejó 17 citas contra las páginas de origen: ninguna tenía palabras cambiadas y cuatro atribuciones estaban mal. Al día siguiente sumé una sexta nota, sobre Lear, que debilitó la hipótesis que yo había propuesto.
 
 A quien no puede salir del cuarto le queda una sola prueba: pedirle al material algo que quien lo armó no haya previsto. Lazar tuvo una. Miró de costado por una ventana chica, creyó ver una figura, y cuenta que al volver "whatever was there was gone".
 
@@ -133,9 +158,9 @@ No se puede afirmar que a Lazar le hayan mostrado material falso. No hay documen
 
 Tampoco se puede afirmar que haya estado en Papoose ni en otro punto del polígono. Las imágenes de 1988 no muestran instalación ni camino, y el W-2 a lo sumo indica un pago.
 
-Los diarios de Vallée registran lo que otros le contaron. Lo de Alexander sobre el Hangar 18 y lo de Kit Green sobre Sandia son relatos de segunda mano. La frase textual de EG&G sobre Lear la da solo Lear, 15 años después.
+Los diarios de Vallée registran lo que otros le contaron. Lo de Alexander sobre el Hangar 18 y lo de Kit Green sobre Sandia son relatos de segunda mano. Que un motivo falte en los textos leídos de Lear no prueba que no circulara en 1988, y lo dicho en el especial de televisión se tomó de subtítulos automáticos. La frase textual de EG&G sobre Lear la da solo Lear, 15 años después.
 
-Los niveles del modelo son míos. Otro lector los llenaría distinto, y el orden entre las dos primeras hipótesis se invierte en un tercio de los sorteos.
+Los niveles del modelo son míos. Otro lector los llenaría distinto, y la hipótesis que queda segunda pasa a primera en cuatro de cada diez sorteos.
 
 Trabajé sobre las notas de quienes leyeron las fuentes, que en parte son secundarias: el artículo del Wall Street Journal se leyó a través de reproducciones. Las citas de este ensayo se cotejaron contra las páginas de origen el 12 de noviembre de 2026. El artículo del Journal, la negación de Doty y la frase de Reid se leyeron en copias o en fuentes secundarias. Las demás citas de las notas siguen sin ese cotejo. Nada de lo escrito acá dice algo sobre las intenciones de Lazar ni de Knapp.
 
@@ -152,7 +177,7 @@ La hipótesis entra en la tabla como un generador más, con su propio perfil de 
 | El narrador | Donde el narrador no sabe | De lo que sabe el testigo |
 | Una simulación | Donde nadie mira | De la atención, sea cual sea el saber del testigo |
 
-Aplicada a Lazar, la simulación predice otra cosa que lo observado. Los huecos de su relato caen en lo que él no sabía, como la física, y en lo que no le dejaron mirar. Lo que llena el relato coincide con la ufología de Las Vegas de 1988: Zeta Reticuli, la intervención genética y el Jesús creado ya estaban en la declaración de Lear. Un fallo de renderizado sería indiferente a las ideas de un amigo del testigo.
+Aplicada a Lazar, la simulación predice otra cosa que lo observado. Los huecos de su relato caen en lo que él no sabía, como la física, y en lo que no le dejaron mirar. Lo que llena el relato coincide con la ufología de Las Vegas de 1988: Zeta Reticuli, la intervención genética y el Jesús creado ya circulaban en el entorno de Lear y en la televisión de octubre de 1988. Un fallo de renderizado sería indiferente a las ideas de un amigo del testigo.
 
 Tengo dos reservas sobre la hipótesis en general. Su versión amplia es compatible con cualquier observación, y por eso informa poco. Su versión de detalle a demanda sí predice algo, y la física conocida la contradice: simular un sistema cuántico en una máquina clásica cuesta, en general, exponencialmente más que simular uno clásico. Un sistema que ahorra cómputo elegiría otra física.
 
@@ -165,3 +190,4 @@ Queda un parecido de textura. Lazar describe un ómnibus con las ventanas tapada
 - [`notas/03-precedentes-engano.md`](https://github.com/mpodeley/naves-alucinadas/blob/main/notas/03-precedentes-engano.md): Yankee Blue, Kirtland, Howe, Moore y el estado del tomo II de AARO.
 - [`notas/04-knapp-cronologia.md`](https://github.com/mpodeley/naves-alucinadas/blob/main/notas/04-knapp-cronologia.md): cronología 1979–2026 y red de 89 vínculos.
 - [`notas/05-papoose-y-cronologia.md`](https://github.com/mpodeley/naves-alucinadas/blob/main/notas/05-papoose-y-cronologia.md): Papoose, programas reales y la cronología de la contratación.
+- [`notas/06-lear-vector.md`](https://github.com/mpodeley/naves-alucinadas/blob/main/notas/06-lear-vector.md): los textos de Lear de 1987 a 1991 comparados motivo por motivo con las carpetas.

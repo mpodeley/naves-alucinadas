@@ -2,7 +2,7 @@
 
 Investigación sobre el testimonio de Bob Lazar de 1989: qué percibió de primera mano, qué leyó o le contaron, y por qué canal llegó el relato al público. Parte de la idea de las "naves estructuralmente alucinadas" del archivo 009 de HERCULANEUM-299 y la contrasta con una explicación más barata: una exhibición controlada.
 
-Estado al 12 de noviembre de 2026: cinco notas de investigación, un modelo de comparación de hipótesis y un ensayo, publicado en <https://mpodeley.github.io/naves-alucinadas/>.
+Estado al 12 de noviembre de 2026: seis notas de investigación, un modelo de comparación de hipótesis y un ensayo, publicado en <https://mpodeley.github.io/naves-alucinadas/>.
 
 ## Qué hay
 
@@ -15,7 +15,8 @@ Estado al 12 de noviembre de 2026: cinco notas de investigación, un modelo de c
 | `notas/03-precedentes-engano.md` | Yankee Blue, Kirtland, Howe, Moore y el estado del tomo II de AARO. |
 | `notas/04-knapp-cronologia.md` | Cronología de George Knapp 1979–2026 y red de 89 vínculos. |
 | `notas/05-papoose-y-cronologia.md` | Papoose, programas reales de 1986 a 1990 y la cronología de la contratación. |
-| `modelo/rasgos.json` | Cinco hipótesis, cuatro priors y 16 rasgos con un nivel por hipótesis y su razón. |
+| `notas/06-lear-vector.md` | Los textos de Lear de 1987 a 1991 comparados motivo por motivo con las carpetas. |
+| `modelo/rasgos.json` | Seis hipótesis, cuatro priors y 20 rasgos con un nivel por hipótesis y su razón. |
 | `modelo/comparar.py` | Calcula posteriores, quita un grupo por vez y sortea los niveles. |
 | `modelo/resultado.md` | Salida del modelo. |
 | `datos/red.csv` | La red de vínculos, extraída de la nota 04. |

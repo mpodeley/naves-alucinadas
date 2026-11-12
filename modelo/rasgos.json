@@ -1,85 +1,377 @@
 {
-  "nota": "Cada nivel es un juicio mío sobre P(rasgo | hipótesis), en cinco escalones verbales. Las referencias apuntan a notas/*.md. Los rasgos de un mismo grupo se promedian: cuentan como una sola evidencia.",
-  "hipotesis": [
-    {"id": "R", "nombre": "Nave real", "definicion": "Hubo un programa con naves no humanas y el relato de Lazar es en lo esencial exacto."},
-    {"id": "S", "nombre": "Montaje completo", "definicion": "Gente de adentro armó para él una escena física: objeto en el hangar, demostraciones y carpetas."},
-    {"id": "C", "nombre": "Siembra barata", "definicion": "Lo llevaron unas pocas veces a un sitio real y le mostraron material inauténtico de bajo costo (carpetas, fotos, un paso junto a algo). El resto lo completaron él, Lear y la hipnosis."},
-    {"id": "P", "nombre": "Acceso periférico inflado", "definicion": "Tuvo un trabajo marginal y real cerca del polígono. Nadie lo engañó. Construyó el relato con el folclore del momento."},
-    {"id": "F", "nombre": "Invención", "definicion": "No tuvo acceso alguno. El relato sale de Lear, de la televisión y de datos públicos."}
-  ],
-  "priors": {
-    "escéptico": {"R": 0.001, "S": 0.03, "C": 0.17, "P": 0.40, "F": 0.40},
-    "referencia": {"R": 0.01, "S": 0.05, "C": 0.24, "P": 0.35, "F": 0.35},
-    "parejo": {"R": 0.2, "S": 0.2, "C": 0.2, "P": 0.2, "F": 0.2},
-    "creyente": {"R": 0.40, "S": 0.10, "C": 0.15, "P": 0.15, "F": 0.20}
+ "nota": "Cada nivel es un juicio mío sobre P(rasgo | hipótesis), en cinco escalones verbales. Las referencias apuntan a notas/*.md. Los rasgos de un mismo grupo se promedian: cuentan como una sola evidencia.",
+ "hipotesis": [
+  {
+   "id": "R",
+   "nombre": "Nave real",
+   "definicion": "Hubo un programa con naves no humanas y el relato de Lazar es en lo esencial exacto."
   },
-  "prior_de_referencia": "referencia",
-  "justificacion_priors": "El prior de referencia baja R por ser una afirmación extraordinaria sin prueba física en 37 años. Baja S porque no hay ningún caso documentado de una nave montada en un hangar (notas/03, hallazgo 8). Sube C porque sí está documentado mostrar papel y fotos falsas a personal y a civiles (Howe 1983, Yankee Blue, fotos del bar). P y F se reparten el resto.",
-  "contraste": ["C", "F"],
-  "rasgos": [
-    {"id": "e1", "grupo": "exposición", "rasgo": "Unas seis visitas, de guardia, siempre escoltado",
-     "ref": "notas/02 hallazgo 1; notas/05 verosimilitud",
-     "p": {"R": "raro", "S": "esperable", "C": "esperable", "P": "indiferente", "F": "indiferente"},
-     "por_que": "Un programa que necesita un físico lo usa más de 49 horas. Una exhibición dura lo que hace falta."},
-    {"id": "e2", "grupo": "exposición", "rasgo": "Un solo disco de cerca, segundos, con orden de mirar al frente; ocho de lejos",
-     "ref": "notas/02 hallazgos 2 y 3",
-     "p": {"R": "indiferente", "S": "esperable", "C": "esperable", "P": "indiferente", "F": "raro"},
-     "por_que": "Quien inventa suele darse acceso rico. Una percepción tan acotada es lo que deja una visita guiada."},
-    {"id": "d1", "grupo": "demostraciones", "rasgo": "Demostraciones de laboratorio con el reactor (pelota, vela, disco negro)",
-     "ref": "notas/02 tabla, fuente OTR",
-     "p": {"R": "esperable", "S": "casi_nunca", "C": "raro", "P": "esperable", "F": "esperable"},
-     "por_que": "Es el rasgo que más cuesta a las dos hipótesis de engaño: montar un campo que desvía una pelota no era posible, y como elaboración sincera es mucho recuerdo."},
-    {"id": "d2", "grupo": "demostraciones", "rasgo": "Presenció un vuelo corto del disco",
-     "ref": "notas/02 tabla, K13 y G20",
-     "p": {"R": "esperable", "S": "raro", "C": "raro", "P": "esperable", "F": "esperable"},
-     "por_que": "Mismo problema que d1, atenuado por la distancia y la hora."},
-    {"id": "c1", "grupo": "carpetas", "rasgo": "Todo lo extraterrestre viene de carpetas o de lo que le dijeron; su primera impresión fue que la nave era propia",
-     "ref": "notas/02 hallazgos 5 y 6",
-     "p": {"R": "indiferente", "S": "esperable", "C": "esperable", "P": "raro", "F": "raro"},
-     "por_que": "Quien arma un relato propio no suele poner la parte central en boca de papeles que admite no poder respaldar."},
-    {"id": "c2", "grupo": "carpetas", "rasgo": "Hojas de una o dos páginas que mezclan propulsión, autopsias, religión y proyectos ajenos, leídas a solas",
-     "ref": "notas/02 hallazgo 6; notas/03 anatomía",
-     "p": {"R": "raro", "S": "esperable", "C": "esperable", "P": "indiferente", "F": "indiferente"},
-     "por_que": "Viola la necesidad de saber. Es el formato del papel de Kirtland de 1983."},
-    {"id": "c3", "grupo": "carpetas", "rasgo": "Él mismo dice desde 1989 que pudo ser desinformación y que el paso junto al disco fue deliberado",
-     "ref": "notas/02 hallazgos 3 y 6",
-     "p": {"R": "indiferente", "S": "esperable", "C": "esperable", "P": "raro", "F": "raro"},
-     "por_que": "Socavar el propio relato en la primera semana de fama es raro en quien lo fabricó."},
-    {"id": "m1", "grupo": "motivos", "rasgo": "Los motivos de las carpetas coinciden con el papel de AFOSI de 1983 y con la declaración de Lear de 1987",
-     "ref": "notas/03, Howe contra Lazar",
-     "p": {"R": "raro", "S": "esperable", "C": "esperable", "P": "esperable", "F": "esperable"},
-     "por_que": "Si la verdad coincidiera con lo que contrainteligencia sembró en 1983, la siembra habría sido cierta. No distingue entre engaño y folclore absorbido."},
-    {"id": "m2", "grupo": "motivos", "rasgo": "Las 65 correcciones y los contenedores aparecen bajo hipnosis, con preguntas que inducen",
-     "ref": "notas/02 hallazgo 9",
-     "p": {"R": "indiferente", "S": "indiferente", "C": "esperable", "P": "esperable", "F": "indiferente"},
-     "por_que": "Señala memoria moldeada después del hecho."},
-    {"id": "f1", "grupo": "física", "rasgo": "El elemento 115 falta en mayo de 1989 y aparece en noviembre; la física no se sostiene",
-     "ref": "notas/02 hallazgo 8",
-     "p": {"R": "raro", "S": "esperable", "C": "esperable", "P": "esperable", "F": "esperable"},
-     "por_que": "Un físico que trabajó con el combustible lo nombra en la primera entrevista."},
-    {"id": "f2", "grupo": "física", "rasgo": "Títulos del MIT y Caltech sin registro; en 1986 declaró ser procesador de fotos; en Los Alamos fue técnico contratista",
-     "ref": "notas/05 hallazgos 6 y 7",
-     "p": {"R": "raro", "S": "indiferente", "C": "esperable", "P": "esperable", "F": "esperable"},
-     "por_que": "Un programa real no lo contrata. Una exhibición no necesita que sea físico."},
-    {"id": "i1", "grupo": "rastro institucional", "rasgo": "W-2 con pagador real aunque de nombre inexistente; conocía vuelos, colectivos y EG&G",
-     "ref": "notas/02 hallazgo 12; notas/05",
-     "p": {"R": "esperable", "S": "esperable", "C": "esperable", "P": "esperable", "F": "raro"},
-     "por_que": "Sin ningún acceso hay que suponer un W-2 falsificado, aunque la logística se podía saber por un conocido que trabajaba en Tonopah."},
-    {"id": "i2", "grupo": "rastro institucional", "rasgo": "Sin instalación visible en Papoose en imágenes de 1988; sin registro suyo en las listas de seguridad",
-     "ref": "notas/05 hallazgos 3 y 11",
-     "p": {"R": "raro", "S": "indiferente", "C": "indiferente", "P": "esperable", "F": "esperable"},
-     "por_que": "Viajaba en un colectivo con las ventanas tapadas: bajo engaño, pudo estar en otro lugar."},
-    {"id": "i3", "grupo": "rastro institucional", "rasgo": "Existe un Site 4 real en Tonopah con personal que vuela desde Las Vegas",
-     "ref": "notas/05 hallazgo 5",
-     "p": {"R": "indiferente", "S": "indiferente", "C": "esperable", "P": "esperable", "F": "indiferente"},
-     "por_que": "Da un lugar mundano donde pudo estar de verdad."},
-    {"id": "b1", "grupo": "blanco", "rasgo": "Conocía a Lear, promotor público desde 1987, antes de postularse; según Lear, quien contrataba preguntó por ese vínculo",
-     "ref": "notas/05 hallazgos 1 y 2",
-     "p": {"R": "raro", "S": "esperable", "C": "esperable", "P": "indiferente", "F": "esperable"},
-     "por_que": "En los casos de Kirtland el receptor siempre está conectado a un difusor. Un programa real descarta a ese candidato."},
-    {"id": "b2", "grupo": "blanco", "rasgo": "Ya hacía excursiones a mirar Groom en septiembre de 1988, antes de ser contratado",
-     "ref": "notas/05 hallazgo 2",
-     "p": {"R": "indiferente", "S": "indiferente", "C": "indiferente", "P": "esperable", "F": "esperable"},
-     "por_que": "El horario de los miércoles pudo conocerse desde afuera."}
-  ]
+  {
+   "id": "S",
+   "nombre": "Montaje completo",
+   "definicion": "Gente de adentro armó para él una escena física: objeto en el hangar, demostraciones y carpetas."
+  },
+  {
+   "id": "C",
+   "nombre": "Siembra barata",
+   "definicion": "Lo llevaron unas pocas veces a un sitio real y le mostraron material inauténtico de bajo costo (carpetas, fotos, un paso junto a algo). El resto lo completaron él, Lear y la hipnosis."
+  },
+  {
+   "id": "P",
+   "nombre": "Acceso periférico inflado",
+   "definicion": "Tuvo un trabajo marginal y real cerca del polígono. Nadie lo engañó. Construyó el relato con el folclore del momento."
+  },
+  {
+   "id": "F",
+   "nombre": "Invención",
+   "definicion": "No tuvo acceso alguno. El relato sale de Lear, de la televisión y de datos públicos."
+  },
+  {
+   "id": "L",
+   "nombre": "Siembra de segunda mano",
+   "definicion": "Tuvo un acceso marginal y real. Nadie le mostró papel falso. El contenido de las carpetas es material que la AFOSI sembró en el circuito de Kirtland, que le llegó por Lear y que recuerda como lectura."
+  }
+ ],
+ "priors": {
+  "escéptico": {
+   "R": 0.001,
+   "S": 0.03,
+   "C": 0.17,
+   "P": 0.24,
+   "F": 0.4,
+   "L": 0.16
+  },
+  "referencia": {
+   "R": 0.01,
+   "S": 0.05,
+   "C": 0.24,
+   "P": 0.21,
+   "F": 0.35,
+   "L": 0.14
+  },
+  "parejo": {
+   "R": 0.166667,
+   "S": 0.166667,
+   "C": 0.166667,
+   "P": 0.166667,
+   "F": 0.166667,
+   "L": 0.166667
+  },
+  "creyente": {
+   "R": 0.4,
+   "S": 0.1,
+   "C": 0.15,
+   "P": 0.09,
+   "F": 0.2,
+   "L": 0.06
+  }
+ },
+ "prior_de_referencia": "referencia",
+ "justificacion_priors": "El prior de referencia baja R por ser una afirmación extraordinaria sin prueba física en 37 años. Baja S porque no hay ningún caso documentado de una nave montada en un hangar (notas/03, hallazgo 8). Sube C porque sí está documentado mostrar papel y fotos falsas a personal y a civiles (Howe 1983, Yankee Blue, fotos del bar). P y F se reparten el resto. L se separa de P con 40% de la masa que tenía P: comparte con ella todo lo que no depende del origen del contenido (notas/06).",
+ "contraste": [
+  "C",
+  "F"
+ ],
+ "rasgos": [
+  {
+   "id": "e1",
+   "grupo": "exposición",
+   "rasgo": "Unas seis visitas, de guardia, siempre escoltado",
+   "ref": "notas/02 hallazgo 1; notas/05 verosimilitud",
+   "p": {
+    "R": "raro",
+    "S": "esperable",
+    "C": "esperable",
+    "P": "indiferente",
+    "F": "indiferente",
+    "L": "indiferente"
+   },
+   "por_que": "Un programa que necesita un físico lo usa más de 49 horas. Una exhibición dura lo que hace falta."
+  },
+  {
+   "id": "e2",
+   "grupo": "exposición",
+   "rasgo": "Un solo disco de cerca, segundos, con orden de mirar al frente; ocho de lejos",
+   "ref": "notas/02 hallazgos 2 y 3",
+   "p": {
+    "R": "indiferente",
+    "S": "esperable",
+    "C": "esperable",
+    "P": "indiferente",
+    "F": "raro",
+    "L": "indiferente"
+   },
+   "por_que": "Quien inventa suele darse acceso rico. Una percepción tan acotada es lo que deja una visita guiada."
+  },
+  {
+   "id": "d1",
+   "grupo": "demostraciones",
+   "rasgo": "Demostraciones de laboratorio con el reactor (pelota, vela, disco negro)",
+   "ref": "notas/02 tabla, fuente OTR",
+   "p": {
+    "R": "esperable",
+    "S": "casi_nunca",
+    "C": "raro",
+    "P": "esperable",
+    "F": "esperable",
+    "L": "esperable"
+   },
+   "por_que": "Es el rasgo que más cuesta a las dos hipótesis de engaño: montar un campo que desvía una pelota no era posible, y como elaboración sincera es mucho recuerdo."
+  },
+  {
+   "id": "d2",
+   "grupo": "demostraciones",
+   "rasgo": "Presenció un vuelo corto del disco",
+   "ref": "notas/02 tabla, K13 y G20",
+   "p": {
+    "R": "esperable",
+    "S": "raro",
+    "C": "raro",
+    "P": "esperable",
+    "F": "esperable",
+    "L": "esperable"
+   },
+   "por_que": "Mismo problema que d1, atenuado por la distancia y la hora."
+  },
+  {
+   "id": "c1",
+   "grupo": "carpetas",
+   "rasgo": "Todo lo extraterrestre viene de carpetas o de lo que le dijeron; su primera impresión fue que la nave era propia",
+   "ref": "notas/02 hallazgos 5 y 6",
+   "p": {
+    "R": "indiferente",
+    "S": "esperable",
+    "C": "esperable",
+    "P": "raro",
+    "F": "raro",
+    "L": "raro"
+   },
+   "por_que": "Quien arma un relato propio no suele poner la parte central en boca de papeles que admite no poder respaldar."
+  },
+  {
+   "id": "c2",
+   "grupo": "carpetas",
+   "rasgo": "Hojas de una o dos páginas que mezclan propulsión, autopsias, religión y proyectos ajenos, leídas a solas",
+   "ref": "notas/02 hallazgo 6; notas/03 anatomía",
+   "p": {
+    "R": "raro",
+    "S": "esperable",
+    "C": "esperable",
+    "P": "indiferente",
+    "F": "indiferente",
+    "L": "indiferente"
+   },
+   "por_que": "Viola la necesidad de saber. Es el formato del papel de Kirtland de 1983."
+  },
+  {
+   "id": "c3",
+   "grupo": "carpetas",
+   "rasgo": "Él mismo dice desde 1989 que pudo ser desinformación y que el paso junto al disco fue deliberado",
+   "ref": "notas/02 hallazgos 3 y 6",
+   "p": {
+    "R": "indiferente",
+    "S": "esperable",
+    "C": "esperable",
+    "P": "raro",
+    "F": "raro",
+    "L": "raro"
+   },
+   "por_que": "Socavar el propio relato en la primera semana de fama es raro en quien lo fabricó."
+  },
+  {
+   "id": "m1",
+   "grupo": "motivos",
+   "rasgo": "Los motivos de las carpetas coinciden con el papel de AFOSI de 1983, con lo que Lear decía en público desde 1987 y con el especial de televisión de octubre de 1988",
+   "ref": "notas/03, Howe contra Lazar; notas/06 sección B",
+   "p": {
+    "R": "raro",
+    "S": "esperable",
+    "C": "esperable",
+    "P": "esperable",
+    "F": "esperable",
+    "L": "casi_seguro"
+   },
+   "por_que": "Si la verdad coincidiera con lo que contrainteligencia sembró en 1983, la siembra habría sido cierta. No distingue entre engaño y folclore absorbido."
+  },
+  {
+   "id": "m2",
+   "grupo": "motivos",
+   "rasgo": "Las 65 correcciones y los contenedores quedan registrados por primera vez bajo hipnosis; el hipnotizador llegó con temario y lecturas previas",
+   "ref": "notas/02 hallazgo 9; notas/06 hallazgo 10",
+   "p": {
+    "R": "indiferente",
+    "S": "indiferente",
+    "C": "esperable",
+    "P": "esperable",
+    "F": "indiferente",
+    "L": "esperable"
+   },
+   "por_que": "Señala memoria moldeada después del hecho."
+  },
+  {
+   "id": "f1",
+   "grupo": "física",
+   "rasgo": "El elemento 115 falta en mayo de 1989 y aparece en noviembre; la física no se sostiene",
+   "ref": "notas/02 hallazgo 8",
+   "p": {
+    "R": "raro",
+    "S": "esperable",
+    "C": "esperable",
+    "P": "esperable",
+    "F": "esperable",
+    "L": "esperable"
+   },
+   "por_que": "Un físico que trabajó con el combustible lo nombra en la primera entrevista."
+  },
+  {
+   "id": "f2",
+   "grupo": "física",
+   "rasgo": "Títulos del MIT y Caltech sin registro; en 1986 declaró ser procesador de fotos; en Los Alamos fue técnico contratista",
+   "ref": "notas/05 hallazgos 6 y 7",
+   "p": {
+    "R": "raro",
+    "S": "indiferente",
+    "C": "esperable",
+    "P": "esperable",
+    "F": "esperable",
+    "L": "esperable"
+   },
+   "por_que": "Un programa real no lo contrata. Una exhibición no necesita que sea físico."
+  },
+  {
+   "id": "i1",
+   "grupo": "rastro institucional",
+   "rasgo": "W-2 con pagador real aunque de nombre inexistente; conocía vuelos, colectivos y EG&G",
+   "ref": "notas/02 hallazgo 12; notas/05",
+   "p": {
+    "R": "esperable",
+    "S": "esperable",
+    "C": "esperable",
+    "P": "esperable",
+    "F": "raro",
+    "L": "esperable"
+   },
+   "por_que": "Sin ningún acceso hay que suponer un W-2 falsificado, aunque la logística se podía saber por un conocido que trabajaba en Tonopah."
+  },
+  {
+   "id": "i2",
+   "grupo": "rastro institucional",
+   "rasgo": "Sin instalación visible en Papoose en imágenes de 1988; sin registro suyo en las listas de seguridad",
+   "ref": "notas/05 hallazgos 3 y 11",
+   "p": {
+    "R": "raro",
+    "S": "indiferente",
+    "C": "indiferente",
+    "P": "esperable",
+    "F": "esperable",
+    "L": "esperable"
+   },
+   "por_que": "Viajaba en un colectivo con las ventanas tapadas: bajo engaño, pudo estar en otro lugar."
+  },
+  {
+   "id": "i3",
+   "grupo": "rastro institucional",
+   "rasgo": "Existe un Site 4 real en Tonopah con personal que vuela desde Las Vegas",
+   "ref": "notas/05 hallazgo 5",
+   "p": {
+    "R": "indiferente",
+    "S": "indiferente",
+    "C": "esperable",
+    "P": "esperable",
+    "F": "indiferente",
+    "L": "esperable"
+   },
+   "por_que": "Da un lugar mundano donde pudo estar de verdad."
+  },
+  {
+   "id": "b1",
+   "grupo": "blanco",
+   "rasgo": "Conocía a Lear, promotor público desde 1987, antes de postularse; según Lear, quien contrataba preguntó por ese vínculo",
+   "ref": "notas/05 hallazgos 1 y 2",
+   "p": {
+    "R": "raro",
+    "S": "esperable",
+    "C": "esperable",
+    "P": "indiferente",
+    "F": "esperable",
+    "L": "indiferente"
+   },
+   "por_que": "En los casos de Kirtland el receptor siempre está conectado a un difusor. Un programa real descarta a ese candidato."
+  },
+  {
+   "id": "b2",
+   "grupo": "blanco",
+   "rasgo": "Ya hacía excursiones a mirar Groom en septiembre de 1988, antes de ser contratado",
+   "ref": "notas/05 hallazgo 2",
+   "p": {
+    "R": "indiferente",
+    "S": "indiferente",
+    "C": "indiferente",
+    "P": "esperable",
+    "F": "esperable",
+    "L": "esperable"
+   },
+   "por_que": "El horario de los miércoles pudo conocerse desde afuera."
+  },
+  {
+   "id": "l1",
+   "grupo": "linaje",
+   "rasgo": "El vocabulario propio de las carpetas (containers, 65 corrections, the Kids, Reticulum 4, Galileo, Sidekick, Looking Glass, elemento 115) no aparece en Lear ni en el circuito de Kirtland antes de diciembre de 1988",
+   "ref": "notas/06 hallazgo 1",
+   "p": {
+    "R": "esperable",
+    "S": "esperable",
+    "C": "esperable",
+    "P": "esperable",
+    "F": "esperable",
+    "L": "raro"
+   },
+   "por_que": "Un documento, real o falso, trae nombres nuevos, y un narrador también los inventa. Solo falla la hipótesis en que la letra viene de Lear."
+  },
+  {
+   "id": "l2",
+   "grupo": "linaje",
+   "rasgo": "Ese vocabulario aparece en Lear después, en 1991, y Lear nombra a Lazar como fuente",
+   "ref": "notas/06 hallazgo 3",
+   "p": {
+    "R": "esperable",
+    "S": "esperable",
+    "C": "esperable",
+    "P": "esperable",
+    "F": "esperable",
+    "L": "raro"
+   },
+   "por_que": "El flujo documentado del residuo va de Lazar a Lear."
+  },
+  {
+   "id": "l3",
+   "grupo": "linaje",
+   "rasgo": "Lazar descarta lo distintivo de Lear: Dulce, el tratado, las abducciones, la base subterránea de Groom",
+   "ref": "notas/06 hallazgo 8",
+   "p": {
+    "R": "esperable",
+    "S": "esperable",
+    "C": "esperable",
+    "P": "indiferente",
+    "F": "raro",
+    "L": "raro"
+   },
+   "por_que": "Quien arma el relato con lo que tiene a mano conserva los motivos más vendedores. Un documento ajeno a Lear no tiene por qué traerlos."
+  },
+  {
+   "id": "l4",
+   "grupo": "linaje",
+   "rasgo": "El incidente con muertos lleva el año 1979, igual que el de Lear de 1987; Lear le atribuye a Lazar dichos sobre Datil que Lazar no reconoce",
+   "ref": "notas/06 hallazgos 7 y 9",
+   "p": {
+    "R": "raro",
+    "S": "indiferente",
+    "C": "esperable",
+    "P": "esperable",
+    "F": "esperable",
+    "L": "casi_seguro"
+   },
+   "por_que": "Un detalle arbitrario compartido señala filtración desde Lear, o un autor del mismo linaje."
+  }
+ ]
 }

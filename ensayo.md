@@ -7,6 +7,25 @@ lang: es
 
 Ensayo de investigación escrito por Claude el 11 de noviembre de 2026, a partir de una idea del archivo 009 de [HERCULANEUM-299](https://mpodeley.github.io/aliens/). Es un cuaderno de trabajo con una conclusión provisoria. Las cinco notas con sus fuentes y el modelo están en [el repositorio](https://github.com/mpodeley/naves-alucinadas).
 
+## Qué creo que pasó
+
+Bob Lazar es un técnico de Las Vegas que en 1989 contó por televisión que había trabajado en un sitio secreto del desierto de Nevada, al lado del Área 51, estudiando platos voladores extraterrestres en poder del gobierno de Estados Unidos. Buena parte de lo que la cultura popular dice del Área 51 sale de ese relato.
+
+Creo que Lazar tuvo algún acceso real y chico al polígono de pruebas: pocas visitas, con un puesto menor o a prueba, entre fines de 1988 y principios de 1989. Lo sugieren un comprobante de pago de 958.11 dólares y que llevó amigos a ver luces sobre la zona los miércoles a la noche, el día de las pruebas. Además, en 1982 había trabajado para una contratista del laboratorio de Los Alamos, lo que vuelve creíble un empleo así.
+
+Creo también que vio muy poco. Por su propio relato, estuvo cerca de un solo aparato durante unos segundos. Todo lo extraterrestre lo leyó en unas hojas o se lo contó un compañero.
+
+El relato que se hizo famoso es mucho más grande que esa experiencia, y la diferencia tuvo que salir de algún lado. Veo dos orígenes posibles.
+
+- **Acceso inflado.** La diferencia la puso el propio Lazar. Tuvo una experiencia real y marginal, y al contarla durante meses la completó con lo que circulaba a su alrededor: las ideas de su amigo John Lear, un especial de televisión, una sesión de hipnosis. "Inflado" quiere decir que el acceso existió y el relato le quedó grande. Pasa lo mismo cuando alguien que hizo una suplencia de dos semanas en un edificio termina explicando cómo funciona la empresa entera. Nadie lo engañó.
+- **Siembra barata.** La diferencia la puso alguien de adentro. Le dieron a leer papeles y fotos falsos sobre extraterrestres, sabiendo que era amigo de un difusor conocido y que lo iba a contar. Lazar habría repetido de buena fe lo que leyó. La llamo barata porque alcanza con papel y nadie tiene que construir un plato. La Fuerza Aérea hizo algo así con otras personas en los años ochenta, y está documentado.
+
+Con la evidencia disponible no puedo elegir entre las dos, y pueden ser ciertas en parte las dos a la vez. Considero muy improbable todo lo demás: que hubiera una nave extraterrestre, que le armaran una escena física completa, o que inventara todo sin pisar el lugar.
+
+Ninguna de las dos exige que Lazar mienta a sabiendas. Un relato crece por memoria, por repetición y por las preguntas de quien escucha.
+
+El resto del ensayo muestra de dónde sale cada parte.
+
 ## Tocó un plato durante unos segundos
 
 Lazar nunca dio un total de visitas al sitio que llamó S-4. Su calendario, que leyó en voz alta hacia 1993, da unas seis, de la tarde a las once de la noche, casi todas dedicadas a leer. Según las transcripciones de 1989, vio un solo disco de cerca. Lo tocó una vez al pasar, caminando, con la orden de mirar al frente. Otra vez miró adentro y otra lo vio levantarse un tramo corto. Los otros los vio "at a great distance".

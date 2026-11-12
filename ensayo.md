@@ -98,6 +98,21 @@ Los números ordenan juicios, y lo que aportan es la dependencia. Sin las demost
 
 Toda la pregunta se reduce entonces a dos. Si Lazar leyó de verdad esas hojas en un cuarto de un sitio real, y las demostraciones son bordado posterior, le mostraron algo. Si las hojas son Lear y televisión recordados como lectura, nadie necesitó engañarlo.
 
+## Por qué pasaría algo así
+
+Para sembrar material falso hay cuatro motivos conocidos, todos tomados de casos ajenos a Lazar.
+
+- **Tapar un programa real.** El F-117 voló de noche desde Tonopah a partir de 1983 y la Fuerza Aérea lo reconoció el 10 de noviembre de 1988. Según el Journal, en los años ochenta un coronel le dio fotos trucadas de platos al dueño de un bar cercano al Área 51, y en 2023 contó a los investigadores que fue un ardid para proteger las pruebas del avión.
+- **Neutralizar a un curioso.** Bennewitz captaba señales reales de la base de Kirtland. Moore confesó en 1989 que la AFOSI lo saturó de desinformación para desacreditarlo y proteger esas señales.
+- **Identificar a quien filtra.** Se entrega a cada persona una versión única de un dato falso y se mira dónde reaparece. En 2026 Lazar describió ese mecanismo para sus carpetas y puso de ejemplo las 65 correcciones.
+- **Probar a los nuevos.** Sobre Yankee Blue, el Journal dice que los investigadores seguían tratando de establecer si fue "some type of loyalty test, a more deliberate attempt to deceive or something else". En el caso mejor documentado, el motivo sigue abierto.
+
+Ninguno coincide por completo con el perfil de Lazar. El tercero es el que mejor le calza: un empleado nuevo, amigo de un difusor ruidoso, al que en el ingreso le preguntan por esa amistad. Es conjetura mía.
+
+El acceso inflado necesita menos. Lazar tenía cerca a un amigo que ya sostenía esas ideas y a un periodista con cámara, y la hipnosis le hizo preguntas que traían la respuesta. Un relato crece en esas condiciones sin que nadie lo decida. Desdecirse después de salir por televisión con nombre propio cuesta más que seguir.
+
+La duración la explica el canal. En 37 años la historia pasó de un periodista a un senador, a un financista, a un programa del Pentágono y a la empresa de un músico, y cada tramo citó al anterior como respaldo.
+
 ## Qué observación lo decidiría
 
 - **El segundo tomo de AARO.** Si describe el formato del material de Yankee Blue, se compara contra las carpetas azules: extensión, mezcla de temas, condiciones de lectura.

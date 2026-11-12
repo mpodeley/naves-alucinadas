@@ -1,0 +1,43 @@
+<meta name="robots" content="noindex">
+<style>
+  :root {
+    --bg: #f6f3ec; --fg: #1d1b17; --muted: #6a655b; --rule: #d6d0c2;
+    --accent: #7a3b1e; --quote-bg: #ece7da;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14130f; --fg: #e6e1d5; --muted: #9a9486; --rule: #34312a;
+      --accent: #d9966f; --quote-bg: #1d1b16;
+    }
+  }
+  html { background: var(--bg); color: var(--fg); }
+  body {
+    max-width: 42rem; margin: 0 auto; padding: 3rem 1rem 5rem;
+    font: 1.06rem/1.62 Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    color: var(--fg); background: var(--bg);
+    hyphens: auto; text-wrap: pretty;
+  }
+  header#title-block-header { margin-bottom: 2.5rem; border-bottom: 1px solid var(--rule); padding-bottom: 1.5rem; }
+  h1.title { font-size: 2.4rem; line-height: 1.1; margin: 0 0 .6rem; font-weight: 600; letter-spacing: -.01em; }
+  p.subtitle { font-size: 1.15rem; color: var(--muted); margin: 0 0 .6rem; font-style: italic; }
+  p.date { font: .8rem/1.4 ui-monospace, "SF Mono", Menlo, monospace; color: var(--muted); margin: 0; }
+  h2 { font-size: 1.35rem; line-height: 1.25; margin: 2.8rem 0 .8rem; font-weight: 600; text-wrap: balance; }
+  p { margin: 0 0 1rem; }
+  strong { font-weight: 600; }
+  a { color: var(--accent); }
+  code { font: .86em ui-monospace, "SF Mono", Menlo, monospace; color: var(--muted); }
+  blockquote {
+    margin: 1.2rem 0; padding: .8rem 1rem; background: var(--quote-bg);
+    border-left: 3px solid var(--accent); font-style: italic;
+  }
+  blockquote p:last-child { margin-bottom: 0; }
+  table {
+    display: block; overflow-x: auto; border-collapse: collapse; margin: 1.4rem 0;
+    font: .86rem/1.4 ui-sans-serif, system-ui, "Helvetica Neue", Arial, sans-serif;
+    font-variant-numeric: tabular-nums;
+  }
+  th, td { padding: .45rem .7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+  th { font-weight: 600; color: var(--muted); border-bottom: 2px solid var(--rule); white-space: nowrap; }
+  ul { padding-left: 1.2rem; }
+  li { margin-bottom: .5rem; }
+</style>

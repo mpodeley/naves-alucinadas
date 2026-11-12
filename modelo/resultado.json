@@ -1,0 +1,273 @@
+{
+  "hipotesis": {
+    "R": "Nave real",
+    "S": "Montaje completo",
+    "C": "Siembra barata",
+    "P": "Acceso periférico inflado",
+    "F": "Invención"
+  },
+  "priors": {
+    "escéptico": {
+      "prior": {
+        "R": 0.000999000999000999,
+        "S": 0.029970029970029965,
+        "C": 0.16983016983016982,
+        "P": 0.39960039960039956,
+        "F": 0.39960039960039956
+      },
+      "posterior": {
+        "R": 1.6622317597845668e-05,
+        "S": 0.009806899693529662,
+        "C": 0.23254359331378627,
+        "P": 0.5974868832897238,
+        "F": 0.16014600138536247
+      }
+    },
+    "referencia": {
+      "prior": {
+        "R": 0.01,
+        "S": 0.05,
+        "C": 0.24,
+        "P": 0.35,
+        "F": 0.35
+      },
+      "posterior": {
+        "R": 0.0001649470355746819,
+        "S": 0.016219349108049202,
+        "C": 0.3257764137588813,
+        "P": 0.5187873376357439,
+        "F": 0.13905195246175087
+      }
+    },
+    "parejo": {
+      "prior": {
+        "R": 0.2,
+        "S": 0.2,
+        "C": 0.2,
+        "P": 0.2,
+        "F": 0.2
+      },
+      "posterior": {
+        "R": 0.00461026100155483,
+        "S": 0.09066599154440319,
+        "C": 0.37939307061663596,
+        "P": 0.4142879686837652,
+        "F": 0.11104270815364085
+      }
+    },
+    "creyente": {
+      "prior": {
+        "R": 0.4,
+        "S": 0.1,
+        "C": 0.15,
+        "P": 0.15,
+        "F": 0.2
+      },
+      "posterior": {
+        "R": 0.01211860039089826,
+        "S": 0.05958149225177415,
+        "C": 0.3739793429532724,
+        "P": 0.4083763102736191,
+        "F": 0.14594425413043602
+      }
+    }
+  },
+  "sin_grupo": {
+    "exposición": {
+      "R": 0.00030520727507181303,
+      "S": 0.010273642119574941,
+      "C": 0.20635293461291487,
+      "P": 0.5257755198466432,
+      "F": 0.25729269614579514
+    },
+    "demostraciones": {
+      "R": 6.37130391859015e-05,
+      "S": 0.07471382295494022,
+      "C": 0.6711230779697378,
+      "P": 0.20038867541193423,
+      "F": 0.05371071062420177
+    },
+    "carpetas": {
+      "R": 0.00014649772194851162,
+      "S": 0.006027078952390169,
+      "C": 0.12105788915887411,
+      "P": 0.6882855296550228,
+      "F": 0.18448300451176455
+    },
+    "motivos": {
+      "R": 0.0004626637293721031,
+      "S": 0.019699490648995063,
+      "C": 0.3128104278393266,
+      "P": 0.4981394667926236,
+      "F": 0.16888795098968268
+    },
+    "física": {
+      "R": 0.0008753308414891531,
+      "S": 0.020413731630714898,
+      "C": 0.3241519407267961,
+      "P": 0.5162004221815137,
+      "F": 0.13835857461948606
+    },
+    "rastro institucional": {
+      "R": 0.0002793780086994215,
+      "S": 0.018390274399868282,
+      "C": 0.31581622028528333,
+      "P": 0.42999575348886626,
+      "F": 0.2355183738172828
+    },
+    "blanco": {
+      "R": 0.00039226765222013843,
+      "S": 0.016702136900381373,
+      "C": 0.3354735276532045,
+      "P": 0.5342296461870006,
+      "F": 0.1132024216071934
+    }
+  },
+  "montecarlo": {
+    "R": {
+      "gana": 0.0,
+      "p05": 1.7755629542974204e-05,
+      "p50": 0.00014218547384170092,
+      "p95": 0.0009918559180670896
+    },
+    "S": {
+      "gana": 5e-05,
+      "p05": 0.0026872034873277853,
+      "p50": 0.014388850024898921,
+      "p95": 0.06587308635813291
+    },
+    "C": {
+      "gana": 0.32255,
+      "p05": 0.08152045549468924,
+      "p50": 0.3140990537596234,
+      "p95": 0.6752003342284307
+    },
+    "P": {
+      "gana": 0.612,
+      "p05": 0.16307449602827664,
+      "p50": 0.47865760364971505,
+      "p95": 0.800811312144076
+    },
+    "F": {
+      "gana": 0.0654,
+      "p05": 0.025324972212044997,
+      "p50": 0.1248938402640846,
+      "p95": 0.41449801281832666
+    }
+  },
+  "parametros": {
+    "seed": 7,
+    "draws": 20000,
+    "jitter": 1.0,
+    "prior_de_referencia": "referencia",
+    "niveles": {
+      "casi_nunca": 0.03,
+      "raro": 0.15,
+      "indiferente": 0.5,
+      "esperable": 0.8,
+      "casi_seguro": 0.95
+    }
+  },
+  "peso_por_rasgo": [
+    {
+      "id": "e1",
+      "grupo": "exposición",
+      "rasgo": "Unas seis visitas, de guardia, siempre escoltado",
+      "db": 2.0411998265592484
+    },
+    {
+      "id": "e2",
+      "grupo": "exposición",
+      "rasgo": "Un solo disco de cerca, segundos, con orden de mirar al frente; ocho de lejos",
+      "db": 7.269987279362624
+    },
+    {
+      "id": "d1",
+      "grupo": "demostraciones",
+      "rasgo": "Demostraciones de laboratorio con el reactor (pelota, vela, disco negro)",
+      "db": -7.269987279362624
+    },
+    {
+      "id": "d2",
+      "grupo": "demostraciones",
+      "rasgo": "Presenció un vuelo corto del disco",
+      "db": -7.269987279362624
+    },
+    {
+      "id": "c1",
+      "grupo": "carpetas",
+      "rasgo": "Todo lo extraterrestre viene de carpetas o de lo que le dijeron; su primera impresión fue que la nave era propia",
+      "db": 7.269987279362624
+    },
+    {
+      "id": "c2",
+      "grupo": "carpetas",
+      "rasgo": "Hojas de una o dos páginas que mezclan propulsión, autopsias, religión y proyectos ajenos, leídas a solas",
+      "db": 2.0411998265592484
+    },
+    {
+      "id": "c3",
+      "grupo": "carpetas",
+      "rasgo": "Él mismo dice desde 1989 que pudo ser desinformación y que el paso junto al disco fue deliberado",
+      "db": 7.269987279362624
+    },
+    {
+      "id": "m1",
+      "grupo": "motivos",
+      "rasgo": "Los motivos de las carpetas coinciden con el papel de AFOSI de 1983 y con la declaración de Lear de 1987",
+      "db": 0.0
+    },
+    {
+      "id": "m2",
+      "grupo": "motivos",
+      "rasgo": "Las 65 correcciones y los contenedores aparecen bajo hipnosis, con preguntas que inducen",
+      "db": 2.0411998265592484
+    },
+    {
+      "id": "f1",
+      "grupo": "física",
+      "rasgo": "El elemento 115 falta en mayo de 1989 y aparece en noviembre; la física no se sostiene",
+      "db": 0.0
+    },
+    {
+      "id": "f2",
+      "grupo": "física",
+      "rasgo": "Títulos del MIT y Caltech sin registro; en 1986 declaró ser procesador de fotos; en Los Alamos fue técnico contratista",
+      "db": 0.0
+    },
+    {
+      "id": "i1",
+      "grupo": "rastro institucional",
+      "rasgo": "W-2 con pagador real aunque de nombre inexistente; conocía vuelos, colectivos y EG&G",
+      "db": 7.269987279362624
+    },
+    {
+      "id": "i2",
+      "grupo": "rastro institucional",
+      "rasgo": "Sin instalación visible en Papoose en imágenes de 1988; sin registro suyo en las listas de seguridad",
+      "db": -2.041199826559248
+    },
+    {
+      "id": "i3",
+      "grupo": "rastro institucional",
+      "rasgo": "Existe un Site 4 real en Tonopah con personal que vuela desde Las Vegas",
+      "db": 2.0411998265592484
+    },
+    {
+      "id": "b1",
+      "grupo": "blanco",
+      "rasgo": "Conocía a Lear, promotor público desde 1987, antes de postularse; según Lear, quien contrataba preguntó por ese vínculo",
+      "db": 0.0
+    },
+    {
+      "id": "b2",
+      "grupo": "blanco",
+      "rasgo": "Ya hacía excursiones a mirar Groom en septiembre de 1988, antes de ser contratado",
+      "db": -2.041199826559248
+    }
+  ],
+  "contraste": [
+    "C",
+    "F"
+  ]
+}
